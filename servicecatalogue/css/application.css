@@ -1,0 +1,100 @@
+body {
+text-align:center;
+margin:0px auto;
+}
+
+#page_wrap {
+	text-align: left;
+}
+
+#content {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 0.8em;
+	color: #555;
+}
+
+#content h2 {
+	color: #000;
+	font-size: 1.5em;
+	padding: 6px;
+	border-bottom: 1px #555 dashed;
+	font-variant: small-caps;
+}
+
+#content a { color: #0071FB; text-decoration: none; }
+#content a:hover { text-decoration: underline; }
+#content a img{ border: 0px; }
+
+#content table {
+	color: #555;
+	margin: 12px;
+}
+
+#content table thead {
+	border-top: 18px solid white;
+}
+
+#content table tbody {
+	margin: 6px;
+}
+
+#content table tr {
+
+}
+
+#content table td {
+border: 1px solid #ccc;
+	width: 125px;
+	padding: 12px;
+}
+
+#content table td.text {
+	width:480px;
+}
+
+#content table td.title {
+	width: 280px;
+}
+
+#content table td.link {
+	width: 80px;
+}
+
+.datatables_filter {
+	margin-top: 12px;
+}
+
+.datatables_filter input {
+		background: url('magnifier.png') no-repeat  3px center;
+		padding: 4px;
+		padding-left:20px;
+		border: 1px solid #e2e2e2;
+	}
+}
+
+.dataTables_info {
+	padding-top: 36px;
+}
+
+.datatables_paginate {
+	margin-top: 24px;
+	margin-bottom: 36px;
+}
+
+.paginate_button {
+	margin-top: 24px;
+	padding: 6px;
+	padding-left: 9px;
+	padding-right: 9px;
+	border: 1px solid #e2e2e2;
+	cursor: pointer;
+}
+
+.paginate_active {
+	margin-top: 24px;
+	padding: 6px;
+	padding-left: 9px;
+	padding-right: 9px;
+	border: 1px solid #0071FB;
+	color: #0071FB;
+}

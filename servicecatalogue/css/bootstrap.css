@@ -1,0 +1,84 @@
+header {
+    color: #fff;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+.new-container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.new-container,
+.navbar-static-top .new-container,
+.navbar-fixed-top .new-container,
+.navbar-fixed-bottom .new-container {
+  width: 940px;
+}
+
+.span12 {
+  width: 940px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 1;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 40px;
+}
+
+img {
+  width: auto\9;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+
+.row::before, .row::after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.row::after {
+    clear: both;
+}
+.row::before, .row::after {
+    content: "";
+    display: table;
+    line-height: 0;
+}
+.row {
+    margin-left: -20px;
+}
+
+
+header img {
+    float: left;
+    padding-bottom: 0;
+    padding-left: 12px;
+    padding-right: 36px;
+}
+
+header h1 {
+    float: left;
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: 0;
+    padding: 6px 0 0;
+}
+
